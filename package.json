@@ -1,0 +1,29 @@
+{
+  "name": "ai_agent_scaffold",
+  "version": "1.0.0",
+  "description": "A TypeScript project that serves as a scaffold to transform your ordinary implementation into a natural-language AI agent using a generative AI API for function calling, tool invocation, and memory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/festuscharles-n/ai_agent_scaffold.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/festuscharles-n/ai_agent_scaffold/issues"
+  },
+  "homepage": "https://github.com/festuscharles-n/ai_agent_scaffold#readme",
+  "dependencies": {
+    "@langchain/community": "^0.3.41",
+    "@langchain/core": "^0.3.49",
+    "@langchain/openai": "^0.5.7",
+    "@upstash/redis": "^1.34.8",
+    "dotenv": "^16.5.0",
+    "langchain": "^0.3.24"
+  }
+}
