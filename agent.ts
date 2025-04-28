@@ -1,7 +1,7 @@
 import { queryOpenAI } from './utils/queryOpenAI';
 import { createMemory, loadFromMemory, saveToMemory } from './utils/memoryUtils';
 
-interface AgentDecision {
+export interface AgentDecision {
   tool:
     | 'cart_manager'
     | 'knowledge_base'
